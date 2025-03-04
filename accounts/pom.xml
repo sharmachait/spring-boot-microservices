@@ -116,11 +116,11 @@
 				<artifactId>liquibase-maven-plugin</artifactId>
 				<version>4.31.0</version>
 				<configuration>
-					<changeLogFile>src/main/resources/db.changelog/changelog-master.xml</changeLogFile>
+					<changeLogFile>src/main/resources/db/changelog/changelog-master.xml</changeLogFile>
 					<!-- <outputChangeLogFile>changelog-output.sql</outputChangeLogFile> -->
-					<url>jdbc:postgresql://ep-silent-fire-a8irz4wb-pooler.eastus2.azure.neon.tech/monkeyquest</url>
-					<username>neondb_owner</username>
-					<password>npg_VqUgStY97NRu</password>
+					<url>jdbc:postgresql://ep-soft-recipe-a189x52v.ap-southeast-1.aws.neon.tech/metaverse?sslmode=require</url>
+					<username>learning_postgres_owner</username>
+					<password>t8qELP1OjCFp</password>
 				</configuration>
 				<dependencies>
 					<dependency>
