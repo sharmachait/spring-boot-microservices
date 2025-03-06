@@ -21,8 +21,6 @@ public class Accounts extends BaseEntity {
     private String accountType;
     private String branchAddress;
 
-
-
     @Override
     public boolean equals(Object o) {
         if(this==o) return true;
