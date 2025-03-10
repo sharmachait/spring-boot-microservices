@@ -22,10 +22,12 @@ import java.util.Map;
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
     @Override
-    protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex,
-                                                                  HttpHeaders headers,
-                                                                  HttpStatusCode status,
-                                                                  WebRequest request) {
+    protected ResponseEntity<Object> handleMethodArgumentNotValid(
+                MethodArgumentNotValidException ex,
+                HttpHeaders headers,
+                HttpStatusCode status,
+                WebRequest request
+    ) {
         Map<String, String> validationErrors = new HashMap<>();
         List<ObjectError> validationErrorList = ex.getBindingResult().getAllErrors();
 
@@ -48,8 +50,8 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(errorResponseDto, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    @ExceptionHandler(CustomerAlreadyExistsException.class)
-    public ResponseEntity<ErrorResponseDto> handleCustomerAlreadyExistsException(CustomerAlreadyExistsException ex, WebRequest request) {
+    @ExceptionHandler(CardAlreadyExistsException.class)
+    public ResponseEntity<ErrorResponseDto> handleCustomerAlreadyExistsException(CardAlreadyExistsException ex, WebRequest request) {
         ErrorResponseDto errorResponseDto = new ErrorResponseDto(
                 request.getDescription(false), // returns the api path where this exception was thrown
                 HttpStatus.BAD_REQUEST,

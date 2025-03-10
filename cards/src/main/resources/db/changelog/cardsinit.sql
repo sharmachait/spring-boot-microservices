@@ -1,6 +1,6 @@
 -- liquibase formatted sql
 
--- changeset accounts:1
+-- changeset cards:2
 -- Create BaseEntity sequence if needed (assuming it's used for ID generation)
 CREATE SEQUENCE IF NOT EXISTS card_entity_seq START 1;
 

@@ -7,14 +7,13 @@ import io.swagger.v3.oas.annotations.info.Info;
 import io.swagger.v3.oas.annotations.info.License;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 @EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")
 @OpenAPIDefinition(
 	info = @Info(
-		title="Accounts API",
+		title="Cards API",
 		description = "some description",
 		version = "v1",
 		contact = @Contact(
@@ -32,8 +31,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 		url = "https://github.com/sharmachait"
 	)
 )
-public class AccountsApplication {
+public class CardsApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(AccountsApplication.class, args);
+		SpringApplication.run(CardsApplication.class, args);
 	}
 }

@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sharmachait</groupId>
-	<artifactId>accounts</artifactId>
+	<artifactId>cards</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>accounts</name>
-	<description>Accounts Microservice</description>
+	<name>cards</name>
+	<description>cards Microservice</description>
 	<url/>
 	<licenses>
 		<license/>

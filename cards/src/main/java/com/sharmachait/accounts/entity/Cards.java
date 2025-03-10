@@ -11,24 +11,33 @@ import java.util.Objects;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Customer extends BaseEntity {
+public class Cards extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long customerId;
-    private String name;
-    @Column(unique = true)
-    private String email;
-    @Column(unique = true)
+    private Long cardId;
+
     private String mobileNumber;
+
+    private String cardNumber;
+
+    private String cardType;
+
+    private int totalLimit;
+
+    private int amountUsed;
+
+    private int availableAmount;
+
+
     @Override
     public boolean equals(Object o) {
         if(this==o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Customer book = (Customer) o;
-        return Objects.equals(customerId, book.customerId);
+        Cards book = (Cards) o;
+        return Objects.equals(cardId, book.cardId);
     }
     @Override
     public int hashCode() {
-        return customerId != null ? Objects.hashCode(customerId) : 0;
+        return cardId != null ? Objects.hashCode(cardId) : 0;
     }
 }
