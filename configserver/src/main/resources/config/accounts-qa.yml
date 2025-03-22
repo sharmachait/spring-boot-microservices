@@ -1,7 +1,4 @@
 spring:
-  config:
-    activate:
-      on-profile: "qa"
   datasource:
     url: jdbc:postgresql://ep-soft-recipe-a189x52v.ap-southeast-1.aws.neon.tech/test?sslmode=require
     username: learning_postgres_owner

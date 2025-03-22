@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    active: "git"
+#    active: native #used when we are using class path to serve configurations
+  cloud:
+#    server:
+#      native:
+#        search-locations: "classpath:/config" # the files in the class path will only be used when this is enabled
+    config:
+      server:
+        git:
+          uri: "https://github.com/sharmachait/spring-boot-microservice-config.git"
+          default-label: main # branch
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+          # username: beelzekamibub # use in case the repo is private
+          # password: password
+
+encrypt:
+  key: "aComplexKey"
+  # this exposes two endpoints encrypt and decrypt that are post methods and take a string encrypt or decrypt it respectively
+  # to make spring config server decrypt some values using the key mentioned here, the value must have a prefix of {cipher}
+  # it identifies that, decrypts it and then sends to the microservice
+
+server:
+  port: 8071

@@ -1,14 +1,9 @@
 spring:
-  config:
-    import: "optional:configserver:http://localhost:8071"
   liquibase:
     change-log: classpath:db/changelog/changelog-master.xml
     user: learning_postgres_owner
     password: t8qELP1OjCFp
     enabled: false
-  profiles:
-    active: "prod"
-#    active: "${profile}"
   application:
     name: accounts
   jpa:
