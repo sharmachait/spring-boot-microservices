@@ -1,4 +1,12 @@
 spring:
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "qa"
+      - "${profile}"
 #  mail:
 #    host: smtp.gmail.com
 #    port: 587

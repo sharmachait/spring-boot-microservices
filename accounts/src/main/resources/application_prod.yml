@@ -1,0 +1,10 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        globally_quoted_identifiers: false
+        format_sql: false
