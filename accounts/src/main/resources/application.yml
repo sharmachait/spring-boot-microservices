@@ -8,6 +8,7 @@ spring:
     enabled: false
   profiles:
     active: "prod"
+#    active: "${profile}"
   application:
     name: accounts
   jpa:

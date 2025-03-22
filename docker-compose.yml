@@ -1,5 +1,7 @@
 services:
   accounts:
+    depends_on:
+      - configserver
     image: "beelzekamibub/accounts:latest"
     container_name: accounts
     ports:
@@ -26,6 +28,17 @@ services:
     container_name: cards
     ports:
       - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - microservice
+  configserver:
+    image: "beelzekamibub/configserver:latest"
+    container_name: configserver
+    ports:
+      - "8071:8071"
     deploy:
       resources:
         limits:
