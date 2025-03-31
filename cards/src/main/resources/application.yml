@@ -35,6 +35,12 @@ spring:
     username: learning_postgres_owner
     password: t8qELP1OjCFp
     driver-class-name: org.postgresql.Driver
+  rabbitmq:
+    host: "localhost"
+    port: "5672"
+    username: "guest"
+    password: "guest"
+
 server:
   port: 9000
 #spring.jpa.hibernate.naming.implicit-strategy=org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
