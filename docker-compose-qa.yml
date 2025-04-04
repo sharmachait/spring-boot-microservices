@@ -1,0 +1,50 @@
+services:
+  accounts:
+    depends_on:
+      - configserver
+    image: "beelzekamibub/accounts:latest"
+    container_name: accounts
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - microservice
+  loans:
+    image: "beelzekamibub/loans:latest"
+    container_name: loans
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - microservice
+  cards:
+    image: "beelzekamibub/cards:latest"
+    container_name: cards
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - microservice
+  configserver:
+    image: "beelzekamibub/configserver:latest"
+    container_name: configserver
+    ports:
+      - "8071:8071"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - microservice
+networks:
+  microservice:
+    driver: "bridge"
