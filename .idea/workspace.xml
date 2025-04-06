@@ -4,12 +4,105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5acf481d-743a-4478-9ec5-fa1e7ac96598" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose-qa.yml" afterDir="false" />
+    <list default="true" id="6010288c-c8a3-4154-8e5f-f6388896b801" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/AccountsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/audit/AuditAwareImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/constants/AccountsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/controller/AccountsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/dto/AccountsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/dto/CustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/dto/ErrorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/dto/ResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/entity/Accounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/exception/CustomerAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/repository/AccountsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/service/Accounts/AccountsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/service/Accounts/IAccountsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/db/changelog/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/test/java/com/sharmachait/accounts/AccountsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cards/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/cards/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/cards/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/cards/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/CardsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/audit/AuditAwareImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/constants/CardsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/controller/CardsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/dto/CardsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/dto/ErrorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/dto/ResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/entity/Cards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/exception/CardAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/repository/CardsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/service/Cards/CardsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/service/Cards/ICardsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/db/changelog/cardsinit.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/test/java/com/sharmachait/accounts/CardsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/java/com/sharmachait/configserver/ConfigserverApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-qa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/test/java/com/sharmachait/configserver/ConfigserverApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-qa.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loans/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/loans/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/loans/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/loans/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/LoansApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/audit/AuditAwareImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/constants/LoansConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/controller/LoansController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/dto/ErrorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/dto/LoansDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/dto/ResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/entity/Loans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/exception/LoanAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/repository/LoansRespository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/service/loans/ILoansService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/service/loans/LoansServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/db/changelog/loansinit.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/test/java/com/sharmachait/accounts/LoansApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,58 +112,59 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2uIq5tENBsTs2Vh5F2eUGIsKfTd" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2vHD707D4tipdXSEMaUZ7Fd4vpG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AccountsApplication.executor": "Run",
+    "Application.CardsApplication.executor": "Run",
     "Application.ConfigserverApplication.executor": "Run",
+    "Application.LoansApplication.executor": "Run",
+    "Maven.accounts [clean,package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/chait/OneDrive/Desktop/microservice",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/Users/chait/OneDrive/Desktop/microservice/configserver"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\chait\OneDrive\Desktop\microservice" />
       <recent name="C:\Users\chait\OneDrive\Desktop\microservice\configserver" />
-      <recent name="C:\Users\chait\OneDrive\Desktop\microservice\configserver\src\main\resources\config" />
-      <recent name="C:\Users\chait\OneDrive\Desktop\microservice\accounts\src\main\resources" />
-      <recent name="C:\Users\chait\OneDrive\Desktop\microservice\loans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConfigserverApplication">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CardsApplication">
     <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sharmachait.accounts.AccountsApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.accounts.AccountsApplication" />
       <module name="accounts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sharmachait.accounts.*" />
+          <option name="PATTERN" value="com.eazybytes.accounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.cards.CardsApplication" />
+      <module name="cards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,11 +173,24 @@
       </method>
     </configuration>
     <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sharmachait.configserver.ConfigserverApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.configserver.ConfigserverApplication" />
       <module name="configserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sharmachait.configserver.*" />
+          <option name="PATTERN" value="com.eazybytes.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoansApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.loans.LoansApplication" />
+      <module name="loans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.loans.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,37 +200,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Application.CardsApplication" />
+        <item itemvalue="Application.LoansApplication" />
         <item itemvalue="Application.AccountsApplication" />
+        <item itemvalue="Application.ConfigserverApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5acf481d-743a-4478-9ec5-fa1e7ac96598" name="Changes" comment="" />
-      <created>1741946256003</created>
+      <changelist id="6010288c-c8a3-4154-8e5f-f6388896b801" name="Changes" comment="" />
+      <created>1743792935369</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1741946256003</updated>
+      <updated>1743792935369</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
