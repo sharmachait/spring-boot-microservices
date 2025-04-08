@@ -5,104 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6010288c-c8a3-4154-8e5f-f6388896b801" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/AccountsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/audit/AuditAwareImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/constants/AccountsConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/controller/AccountsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/dto/AccountsDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/dto/CustomerDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/dto/ErrorResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/dto/ResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/entity/Accounts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/entity/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/entity/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/exception/CustomerAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/repository/AccountsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/repository/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/service/Accounts/AccountsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/sharmachait/accounts/service/Accounts/IAccountsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/db/changelog/init.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/test/java/com/sharmachait/accounts/AccountsApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cards/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/cards/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/cards/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/cards/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/CardsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/audit/AuditAwareImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/constants/CardsConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/controller/CardsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/dto/CardsDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/dto/ErrorResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/dto/ResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/entity/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/entity/Cards.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/exception/CardAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/repository/CardsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/service/Cards/CardsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/sharmachait/accounts/service/Cards/ICardsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/db/changelog/cardsinit.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/test/java/com/sharmachait/accounts/CardsApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/java/com/sharmachait/configserver/ConfigserverApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-qa.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/test/java/com/sharmachait/configserver/ConfigserverApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-qa.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loans/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/loans/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/loans/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/loans/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/LoansApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/audit/AuditAwareImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/constants/LoansConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/controller/LoansController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/dto/ErrorResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/dto/LoansDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/dto/ResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/entity/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/entity/Loans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/exception/LoanAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/repository/LoansRespository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/service/loans/ILoansService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/sharmachait/accounts/service/loans/LoansServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/db/changelog/loansinit.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/test/java/com/sharmachait/accounts/LoansApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,20 +30,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccountsApplication.executor": "Run",
-    "Application.CardsApplication.executor": "Run",
-    "Application.ConfigserverApplication.executor": "Run",
-    "Application.LoansApplication.executor": "Run",
-    "Maven.accounts [clean,package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/chait/OneDrive/Desktop/microservice/configserver"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoansApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.accounts [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chait/OneDrive/Desktop/microservice/configserver&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chait\OneDrive\Desktop\microservice\configserver" />

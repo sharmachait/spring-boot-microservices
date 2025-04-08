@@ -1,28 +1,27 @@
 services:
-  rabbit:
-    image: rabbitmq:3.13-management
-    hostname: rabbitmq
-    ports:
-      - "5672:5672"
-      - "15672:15672"
-    healthcheck:
-      test: rabbitmq-diagnostics check_port_connectivity
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 5s
-    extends:
-      file: common-config.yml
-      service: network-deploy-service
-
+  #  rabbit:
+  #    image: rabbitmq:3.13-management
+  #    hostname: rabbitmq
+  #    ports:
+  #      - "5672:5672"
+  #      - "15672:15672"
+  #    healthcheck:
+  #      test: rabbitmq-diagnostics check_port_connectivity
+  #      interval: 10s
+  #      timeout: 5s
+  #      retries: 10
+  #      start_period: 5s
+  #    extends:
+  #      file: common-config.yml
+  #      service: network-deploy-service
   configserver:
-    image: "eazybytes/configserver:s6"
+    image: "beelzekamibub/configserver:v2"
     container_name: configserver-ms
     ports:
       - "8071:8071"
-    depends_on:
-      rabbit:
-        condition: service_healthy
+    #    depends_on:
+    #      rabbit:
+    #        condition: service_healthy
     healthcheck:
       test: "curl --fail --silent localhost:8071/actuator/health/readiness | grep UP || exit 1"
       interval: 10s
@@ -34,7 +33,7 @@ services:
       service: microservice-base-config
 
   accounts:
-    image: "eazybytes/accounts:s6"
+    image: "beelzekamibub/accounts:v2"
     container_name: accounts-ms
     ports:
       - "8080:8080"
@@ -48,7 +47,7 @@ services:
       service: microservice-configserver-config
 
   loans:
-    image: "eazybytes/loans:s6"
+    image: "beelzekamibub/loans:v2"
     container_name: loans-ms
     ports:
       - "8090:8090"
@@ -62,7 +61,7 @@ services:
       service: microservice-configserver-config
 
   cards:
-    image: "eazybytes/cards:s6"
+    image: "beelzekamibub/cards:v2"
     container_name: cards-ms
     ports:
       - "9000:9000"

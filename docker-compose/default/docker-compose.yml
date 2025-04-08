@@ -14,7 +14,6 @@ services:
 #    extends:
 #      file: common-config.yml
 #      service: network-deploy-service
-
   configserver:
     image: "beelzekamibub/configserver:v2"
     container_name: configserver-ms
