@@ -23,7 +23,7 @@ services:
     #      rabbit:
     #        condition: service_healthy
     healthcheck:
-      test: "curl --fail --silent localhost:8071/actuator/health/readiness | grep UP || exit 1"
+      test: "curl --fail --silent localhost:8070/actuator/health/readiness | grep UP || exit 1"
       interval: 10s
       timeout: 5s
       retries: 10
@@ -31,7 +31,27 @@ services:
     extends:
       file: common-config.yml
       service: microservice-base-config
-
+  eurekaserver:
+    image: "beelzekamibub/eurekaserver:v2"
+    container_name: eurekaserver-ms
+    ports:
+      - "8070:8070"
+    depends_on:
+      configserver:
+        condition: service_healthy
+    healthcheck:
+      test: "curl --fail --silent localhost:8071/actuator/health/readiness | grep UP || exit 1"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    environment:
+      SPRING_APPLICATION_NAME: "eurekaserver"
+      SPRING_PROFILES_ACTIVE: default
+      SPRING_CONFIG_IMPORT: configserver:http://configserver:8071/
+    extends:
+      file: common-config.yml
+      service: microservice-base-config
   accounts:
     image: "beelzekamibub/accounts:v2"
     container_name: accounts-ms
@@ -39,6 +59,8 @@ services:
       - "8080:8080"
     depends_on:
       configserver:
+        condition: service_healthy
+      eurekaserver:
         condition: service_healthy
     environment:
       SPRING_APPLICATION_NAME: "accounts"
@@ -54,6 +76,8 @@ services:
     depends_on:
       configserver:
         condition: service_healthy
+      eurekaserver:
+        condition: service_healthy
     environment:
       SPRING_APPLICATION_NAME: "loans"
     extends:
@@ -67,6 +91,8 @@ services:
       - "9000:9000"
     depends_on:
       configserver:
+        condition: service_healthy
+      eurekaserver:
         condition: service_healthy
     environment:
       SPRING_APPLICATION_NAME: "cards"

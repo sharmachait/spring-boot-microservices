@@ -22,7 +22,6 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
     url: jdbc:postgresql://ep-soft-recipe-a189x52v-pooler.ap-southeast-1.aws.neon.tech/microservices?sslmode=require
-    #    url: jdbc:postgresql://ep-soft-recipe-a189x52v.ap-southeast-1.aws.neon.tech/test?sslmode=require
     username: learning_postgres_owner
     password: t8qELP1OjCFp
     driver-class-name: org.postgresql.Driver
@@ -33,9 +32,30 @@ spring:
 #    port: 5672
 #    username: "guest"
 #    password: "guest"
-
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+info:
+  app:
+    name: "loans"
+    description: "loans api"
+    version: "0.0.9"
 management:
+  info:
+    env:
+      enabled: true
+  endpoint:
+    shutdown:
+      enabled: true
   endpoints:
     web:
       exposure:
         include: "*"
+endpoints:
+  shutdown:
+    enabled: true
