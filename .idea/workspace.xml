@@ -5,18 +5,110 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6010288c-c8a3-4154-8e5f-f6388896b801" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/dto/CardsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/dto/CustomerDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/dto/LoansDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/client/CardsFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/client/LoansFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/AccountsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/eazybytes/accounts/mapper/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/accounts-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/accounts-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/AccountsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/audit/AuditAwareImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/constants/AccountsConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/controller/AccountsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/dto/AccountsContactInfoDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/dto/AccountsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/dto/CustomerDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/dto/ErrorResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/dto/ResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/entity/Accounts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/exception/CustomerAlreadyExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/mapper/AccountsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/mapper/CustomerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/repository/AccountsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/service/IAccountsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/com/eazybytes/accounts/service/impl/AccountsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/surefire-reports/TEST-com.eazybytes.accounts.AccountsApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/surefire-reports/com.eazybytes.accounts.AccountsApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/target/test-classes/com/eazybytes/accounts/AccountsApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/eazybytes/cards/CardsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/java/com/eazybytes/cards/CardsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/eazybytes/loans/LoansApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/java/com/eazybytes/loans/LoansApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/LoansApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/audit/AuditAwareImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/constants/LoansConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/controller/LoansController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/dto/ErrorResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/dto/LoansContactInfoDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/dto/LoansDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/dto/ResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/entity/Loans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/exception/LoanAlreadyExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/mapper/LoansMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/repository/LoansRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/service/ILoansService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/eazybytes/loans/service/impl/LoansServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/surefire-reports/TEST-com.eazybytes.loans.LoansApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/surefire-reports/com.eazybytes.loans.LoansApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/test-classes/com/eazybytes/loans/LoansApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,6 +118,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2vHD707D4tipdXSEMaUZ7Fd4vpG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,18 +130,24 @@
     &quot;Application.AccountsApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.CardsApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurekaserverApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.LoansApplication.executor&quot;: &quot;Run&quot;,
     &quot;Maven.accounts [clean,package].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;servicediscovery&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/chait/OneDrive/Desktop/microservice/configserver&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chait/OneDrive/Desktop/microservice/eurekaserver&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chait\OneDrive\Desktop\microservice\eurekaserver" />
       <recent name="C:\Users\chait\OneDrive\Desktop\microservice\configserver" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eazybytes.accounts.service.client" />
+      <recent name="com.eazybytes.accounts.dto" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -54,7 +155,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CardsApplication">
+  <component name="RunManager" selected="Application.LoansApplication">
     <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eazybytes.accounts.AccountsApplication" />
       <module name="accounts" />
@@ -94,6 +195,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sharmachait.eurekaserver.EurekaserverApplication" />
+      <module name="eurekaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sharmachait.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoansApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eazybytes.loans.LoansApplication" />
       <module name="loans" />
@@ -109,9 +223,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.LoansApplication" />
+        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.AccountsApplication" />
+        <item itemvalue="Application.EurekaserverApplication" />
         <item itemvalue="Application.ConfigserverApplication" />
       </list>
     </recent_temporary>
