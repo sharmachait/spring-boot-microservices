@@ -46,10 +46,18 @@ info:
     description: "loans api"
     version: "0.0.9"
 management:
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
   info:
     env:
       enabled: true
   endpoint:
+    health:
+      probes:
+        enabled: true
     shutdown:
       enabled: true
   endpoints:
@@ -59,3 +67,9 @@ management:
 endpoints:
   shutdown:
     enabled: true
+
+logging:
+  level:
+    com:
+      sharmachait:
+        gatewayserver: DEBUG
