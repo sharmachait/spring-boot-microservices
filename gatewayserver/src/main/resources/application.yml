@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: "gatewayserver"
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false #true if we dont have custom configuration via the route lcoator bean
+          lowerCaseServiceId: true
+info:
+  app:
+    name: "gatewayserver"
+    description: "gatewayserver"
+    version: "0.0.9"
+management:
+  info:
+    env:
+      enabled: true
+  endpoint:
+    gateway:
+      access: "unrestricted"
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    com:
+      sharmachait:
+        gatewayserver: DEBUG
